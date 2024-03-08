@@ -17,7 +17,7 @@ URL:		https://github.com/uber-go/goleak
 License:	MIT
 Group:		Development/Other
 BuildRequires:	compiler(go-compiler)
-%if %{wth check}
+%if %{with check}
 BuildRequires:	golang(github.com/stretchr/testify/assert)
 %endif
 BuildArch:	noarch
